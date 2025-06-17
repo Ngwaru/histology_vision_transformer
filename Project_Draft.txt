@@ -1,0 +1,27 @@
+GIT 
+-
+Dockerize app
+-Virtual Environment 
+-Install 
+-Requirements
+-
+
+
+Scrape Data from the internet
+-Identify Source
+-Clean Data
+-EDA 
+
+
+Python
+-Create Modules
+-APIs e.g. FastAPI
+
+Experiment
+Cross Validation
+Run Experiments
+
+
+model
+-Reinforcement Learning
+- Monitor Performance 
