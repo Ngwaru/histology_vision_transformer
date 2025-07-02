@@ -1,10 +1,10 @@
-FROM python:3.11.0
+FROM ngwaru/histo_vit:0.0.1
 
 ADD main.py .
 
-ADD requirements.txt .
+#ADD requirements.txt .
 ADD vit.ipynb .
-ADD hmnist_28_28_RGB.csv . 
+ADD Colorectal_Histology.zip . 
 
 RUN pip install -r requirements.txt
 
