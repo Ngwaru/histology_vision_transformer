@@ -1,4 +1,4 @@
-FROM ngwaru/histo_vit:0.0.1
+FROM ngwaru/histo_vit:0.0.2
 
 ADD main.py .
 
