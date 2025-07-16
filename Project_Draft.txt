@@ -13,6 +13,7 @@ Scrape Data from the internet
 -Identify Source
 -Clean Data
 -EDA 
+- Use different sources
 
 
 Python
