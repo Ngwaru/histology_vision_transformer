@@ -1,6 +1,7 @@
 from taipy.gui import Gui
 import numpy as np
 import torch
+import open_clip
 from PIL import Image
 
 MODEL_PATH = ""
@@ -13,7 +14,10 @@ prob = 0
 
 display_message = ""
 
-model = torch.load(MODEL_PATH, weights_only=False)
+# model = torch.load(MODEL_PATH, weights_only=False)
+model, _, preprocessing = open_clip.create_model_and_transformers("ViT-B-32", pretrained='laion2_s34b_b79k')
+model.eval()
+tokenizer = open_clip.get_tokenizer('ViT-B-32')
 
 def classify_pic(model, path_to_image):
     image = Image.open(path_to_image)
